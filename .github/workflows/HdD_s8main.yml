@@ -5,8 +5,8 @@ on:
 
 jobs:
   imp1:
-    name: Impresion 1
     runs-on: ubuntu-latest
     steps:
       - run: |
+          sleep 10
           echo "ok"
